@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap');
+*{
+margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none;
+}
+body{
+    background: beige;
+}
+header{   
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #E1E2E5;    
+    z-index: 999;
+}
+.logo img{
+    max-width: 80%;
+}
+.navbar{
+    display: flex;    
+}
+.navbar a{
+    color: #222;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: .42s;
+}
+.btn{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-login, .btn-signup{
+    padding: 4px 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: black;
+    transition: .9s;
+}
+.btn-login:hover {
+    color: white;
+    background-color: black;
+}
+.btn-signup:hover{
+    color: white;
+    background-color: black;
+}
+.nav-icon{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    
+}
+.nav-icon i{
+    margin-right: 12px;
+    font-size: 28px;
+    font-weight: 500;
+    transition: all .42s ease;
+    color: rgb(106, 106, 106);
+}
+.nav-icon i:hover{
+    transform: translateY(-4px);
+    color: #000;
+
+}
+#menu-icon{
+    font-size: 32px;
+    cursor: pointer;
+    color: #000;
+}
+.container{
+    width: 100%;
+    min-height: 380px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.product01{
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius:18px;
+    box-shadow: 0 0 20px rgb(109, 109, 109);
+    width: 250px;
+    height: 350px;
+    background-color:white;
+    transition: .5s;
+}
+.product01:hover{
+    transform: translateY(-5px);
+    transform: scale(1.1);
+}
+.product01 a {
+    color:beige ;
+    border: solid 1px #28a745 ; 
+    background-color:#28a745 ;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: small;
+    margin-right: 12px;
+}
